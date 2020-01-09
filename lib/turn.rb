@@ -45,7 +45,6 @@ end
 
 
 def move(board, index, mark = "X")
-  if valid_move?(board, index)
     board[index] = mark
   end
 end
