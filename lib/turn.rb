@@ -42,7 +42,7 @@ end
 
 def move(board, index, mark = "X")
     board[index] = mark
-  end
 end
+
 
 
